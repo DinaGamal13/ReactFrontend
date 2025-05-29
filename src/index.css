@@ -1,0 +1,125 @@
+@font-face {
+  font-family: 'Irish Grover';
+  src: url('./assets/fonts/IrishGrover-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.Body{
+  background-color: #F8F3D9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.bgcolor{
+  background-color: #626F47;
+  width: 1350px;
+  height: 601px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.insideLeft{
+  background-color: rgb(98, 111, 71);
+  width: 630px;
+  height: 601px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap:40px;
+}
+
+.insideRight{
+  background-color: #F8F3D9;
+  width: 651.39px;
+  height: 601px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap:5px;
+}
+
+
+.title{
+  font-family: 'Irish Grover';
+  color:#F8F3D9;
+}
+
+.logoTitle{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.fields{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+
+.remember{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  width: 430px;
+  color: #7C7C7C;
+}
+
+h1{
+  margin-bottom:20px;
+}
+
+
+.AlreadyIn{
+  display: flex;
+  gap: 5px;
+  margin-top: 15px;
+  color: #626F47;
+  opacity: 77%;
+}
+
+
+#List{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 8ch;
+  cursor:pointer;
+}
+
+.posts{
+  margin-left: 11ch;
+}
+.create{
+  margin-left: 7ch;
+}
+.create,.posts{
+  list-style-type: none;
+  font-family: 'Irish Grover';
+  font-weight: bold;
+  font-size: 2.8ch;
+  text-decoration: none;
+}
+
+.inactive{
+  color:rgba(248, 243, 217,60%);
+}
+
+.active{
+  color:#f8f3d9;
+}
+
+
