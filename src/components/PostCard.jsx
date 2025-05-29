@@ -31,14 +31,14 @@ export default function PostCard({ post, onDelete }) {
     <>
 
       <div style={{ display: 'flex', justifyContent: 'space-evenly', alignItems: 'center', margin: '5.3ch 0 0 0' }}>
-        <Card sx={{ maxWidth: 400, height: '58ch' }} style={{ backgroundColor: '#E3D095' }}>
+        <Card sx={{ maxWidth: 400, minHeight: 450 }} style={{ backgroundColor: '#E3D095' }}>
           <CardHeader
             style={{
               backgroundColor: '#626F47'
             }}
             avatar={
               <div style={{ width: '45px', height: '45px', borderRadius: '100%', backgroundColor: '#F8F3D9', display: 'flex', justifyContent: 'center', alignItems: 'center', color: '#626F47', fontSize: '2ch', fontFamily: 'Irish Grover', cursor: 'pointer' }}>
-                {authorName[0]?.toUpperCase()}
+                {authorName.split(' ')[0][0]?.toUpperCase() + authorName.split(' ')[1][0]?.toUpperCase()}
               </div>
             }
             action={

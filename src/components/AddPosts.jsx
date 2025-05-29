@@ -195,7 +195,7 @@ export default function AddPosts() {
             <div style={{ display: 'flex', justifyContent: 'center', gap: '10ch' }}>
                 <div style={{ display: 'flex', alignItems: 'center', flexDirection: 'column' }}>
                     <h1 style={{ fontFamily: 'Irish Grover', fontSize: '4ch', color: '#626F47', textAlign: 'center' }}>Preview Your Post</h1>
-                    <Card sx={{ maxWidth: 400, height: '58ch' }} style={{ backgroundColor: '#E3D095' }}>
+                    <Card sx={{ maxWidth: 400, minHeight: 450 }} style={{ backgroundColor: '#E3D095' }}>
                         <CardHeader
                             style={{
                                 backgroundColor: '#626F47'
