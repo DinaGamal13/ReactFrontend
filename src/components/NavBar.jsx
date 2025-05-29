@@ -150,7 +150,7 @@ export default function NavBar({ onSearch }) {
               </NavLink>
               <Tooltip title="Open settings" style={{ marginLeft: '18ch', display: 'flex', justifyContent: 'space-between', alignItems: 'center', gap: '10px' }}>
                 <div onClick={handleOpenUserMenu} style={{ width: '45px', height: '45px', borderRadius: '100%', backgroundColor: '#F8F3D9', display: 'flex', justifyContent: 'center', alignItems: 'center', color: '#626F47', fontSize: '2ch', fontFamily: 'Irish Grover', cursor: 'pointer' }}>
-                  {userName?.charAt(0).toUpperCase()}
+                  {userName.split(' ')[0][0]?.toUpperCase() + userName.split(' ')[1][0]?.toUpperCase()}
                 </div>
                 <p style={{ fontSize: '2.5ch', color: '#F8F3D9' }}>{userName}</p>
               </Tooltip>
