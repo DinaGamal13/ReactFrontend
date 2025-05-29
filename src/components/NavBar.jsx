@@ -98,8 +98,8 @@ export default function NavBar({ onSearch }) {
   };
 
   return (
-    <Box sx={{ flexGrow: 1 }}>
-      <AppBar position="static" sx={{ backgroundColor: "#626F47", padding: '15px 10ch' }}>
+    <Box sx={{ flexGrow: 1 , position:'sticky', top:'0'}}>
+      <AppBar position="sticky" sx={{ backgroundColor: "#626F47", padding: '15px 10ch' }}>
         <Toolbar>
           <img src="/logo.png" style={{
             height: '50px', marginRight: '8px'
